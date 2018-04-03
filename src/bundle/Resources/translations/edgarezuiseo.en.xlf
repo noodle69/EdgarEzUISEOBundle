@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="46afd883b494d077cd5835bbc3b210ca67a6c8d3" resname="robots.view">
+        <source>robots.txt</source>
+        <target>robots.txt</target>
+        <note>key: robots.view</note>
+      </trans-unit>
+      <trans-unit id="f0e6e365452b0422c42ba95bf89503d789476b1b" resname="robots.view.title">
+        <source>robots.txt</source>
+        <target>robots.txt</target>
+        <note>key: robots.view.title</note>
+      </trans-unit>
+      <trans-unit id="c2923c9c9218a7f891136c5073904175c8f80d09" resname="sitemap.view">
+        <source>sitemap</source>
+        <target>sitemap</target>
+        <note>key: sitemap.view</note>
+      </trans-unit>
+      <trans-unit id="a1d5a9579c7ea620fea2a350c35d3c1ef273253c" resname="sitemap.view.title">
+        <source>sitemap</source>
+        <target>sitemap</target>
+        <note>key: sitemap.view.title</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

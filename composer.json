@@ -1,0 +1,34 @@
+{
+  "name": "edgar/ez-uiseo-bundle",
+  "license": "GPL-2.0-only",
+  "type": "ezplatform-bundle",
+  "description": "eZ Platform bundle",
+  "authors": [
+    {
+      "name": "Emmanuel DROUET",
+      "email": "emmanuel.drouet@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Edgar\\EzUISEOBundle\\": "src/bundle/",
+      "Edgar\\EzUISEO\\": "src/lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": { "Edgar\\EzUISEOBundle\\Tests\\": "src/bundle/Tests" }
+  },
+  "require": {
+    "php": ">=7.1",
+    "ezsystems/ezpublish-kernel": "^7.1",
+    "ezsystems/ezplatform-admin-ui": "^1.1",
+    "edgar/ez-uisites-bundle": "~1.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "~2.7.1",
+    "phpunit/phpunit": "^6.4"
+  },
+  "scripts": {
+    "fix-cs": "@php ./vendor/bin/php-cs-fixer fix -v --show-progress=estimating"
+  }
+}

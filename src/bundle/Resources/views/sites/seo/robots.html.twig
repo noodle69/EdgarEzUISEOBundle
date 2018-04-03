@@ -1,0 +1,27 @@
+{% extends 'EzPlatformAdminUiBundle::layout.html.twig' %}
+
+{% trans_default_domain 'edgarezuiseo' %}
+
+{% block body_class %}ez-info-view{% endblock %}
+
+{% block breadcrumbs %}
+    {% include '@EzPlatformAdminUi/parts/breadcrumbs.html.twig' with { items: [
+        { value: 'breadcrumb.sites'|trans(domain='messages')|desc('Sites') },
+        { url: path('edgar.ezuiseo.robots'), value: 'robots.view'|trans|desc('robots.txt') },
+    ]} %}
+{% endblock %}
+
+{% block page_title %}
+    {% include '@EzPlatformAdminUi/parts/page_title.html.twig' with {
+        title: 'robots.view.title'|trans|desc('robots.txt'),
+        iconName: 'archive-restore'
+    } %}
+{% endblock %}
+
+{% block content %}
+
+    <section class="container mt-4">
+
+    </section>
+
+{% endblock %}

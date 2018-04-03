@@ -1,0 +1,12 @@
+edgar.ezuiseo.robots:
+    path: /robots
+    methods: [ "GET" ]
+    defaults:
+        _controller: 'EdgarEzUISEOBundle:SEO:robots'
+
+edgar.ezuiseo.sitemap:
+    path: /sitemap
+    methods: [ "GET" ]
+    defaults:
+        _controller: 'EdgarEzUISEOBundle:SEO:sitemap'
+
